@@ -1,0 +1,242 @@
+[
+    {
+          "number": 7,
+          "currentteam": "Juventus",
+          "fullname": "Cristiano Ronaldo dos Santos Aveiro",
+          "dateofbirth":"5 February 1985",
+          "age":35,
+          "goals": 652,
+          "country": "Portugal",
+          "playingposition": "Forward",
+          "career":{
+            "youthcareer":[
+              {
+                "years":10,
+                "teams": 3
+              }
+              ],
+            "seniorcareer":[
+              {
+                "years":16,
+                "teams": 5
+              }
+              ]
+          }
+      },
+      {
+          "number": 10,
+          "currentteam": "Barcelona",
+          "fullname": "Lionel Andrés Messi Cuccittini",
+          "dateofbirth":"24 June 1987 ",
+          "age":32,
+          "goals": 498,
+          "country": "Argentina",
+          "playingposition": "Forward",
+          "career":{
+            "youthcareer":[
+              {
+                "years": 10,
+                "teams": 2
+              }
+              ],
+            "seniorcareer":[
+              {
+                "years": 16,
+                "teams": 1
+              }
+              ]
+          }
+      },    
+      {
+          "number": 7,
+          "currentteam": "Real Madrid",
+          "fullname": "Eden Michael Hazard",
+          "dateofbirth":"7 January 1991",
+          "age": 29,
+          "goals": "245",
+          "country": "Belgium",
+          "playingposition": "Left winger/Attacking midfielder",
+          "career":{
+            "youthcareer":[
+              {
+                "years":12,
+                "teams":"3"
+              }
+              ],
+            "seniorcareer":[
+              {
+                "years":13,
+                "teams":"3"
+              }
+              ]
+          }
+      },    
+      {
+          "number": 9,
+          "currentteam": "Real Madrid",
+          "fullname": "Karim Mostafa Benzema",
+          "dateofbirth":"19 December 1987",
+          "age": 32,
+          "goals": "",
+          "country": "France",
+          "playingposition": "Striker",
+          "career":{
+            "youthcareer":[
+              {
+                "years":10,
+                "teams": 2
+              }
+              ],
+            "seniorcareer":[
+              {
+                "years":16,
+                "teams": 3
+              }
+              ]
+          }
+      },
+      {
+          "number": 4,
+          "currentteam": "Real Madrid",
+          "fullname": "Sergio Ramos García",
+          "dateofbirth":"30 March 1986",
+          "age": 34,
+          "goals": "105",
+          "country": "Spain",
+          "playingposition": "Centre-back",
+          "career":{
+            "youthcareer":[
+              {
+                "years": 7,
+                "teams": 1
+              }
+              ],
+            "seniorcareer":[
+              {
+                "years":17,
+                "teams": 3
+              }
+              ]
+          }
+      },
+      {
+          "number": 10,
+          "currentteam": "Paris Saint-Germain",
+          "fullname": "Neymar da Silva Santos Júnior",
+          "dateofbirth":"5 February 1992",
+          "age": 28,
+          "goals": "280",
+          "country": "Brazil",
+          "playingposition": "Forward",
+          "career":{
+            "youthcareer":[
+              {
+                "years": 10,
+                "teams": 2
+              }
+              ],
+            "seniorcareer":[
+              {
+                "years":11,
+                "teams": 3
+              }
+              ]
+          }
+      },
+      {
+          "number": 1,
+          "currentteam": "Porto",
+          "fullname": "Iker Casillas Fernández",
+          "dateofbirth":"20 May 1981",
+          "age": 38,
+          "goals": "0",
+          "country": "Spain",
+          "playingposition": "Goalkeeper",
+          "career":{
+            "youthcareer":[
+              {
+                "years": 8,
+                "teams": 1
+              }
+              ],
+            "seniorcareer":[
+              {
+                "years": 22,
+                "teams": 2
+              }
+              ]
+          }
+      },
+      {
+          "number": 21,
+          "currentteam": "Milan",
+          "fullname": "Zlatan Ibrahimović",
+          "dateofbirth":"3 October 1981",
+          "age": 38,
+          "goals": "452",
+          "country": "Sweden",
+          "playingposition": "Striker",
+          "career":{
+            "youthcareer":[
+              {
+                "years": 10,
+                "teams": 3
+              }
+              ],
+            "seniorcareer":[
+              {
+                "years": 21,
+                "teams": 10
+              }
+              ]
+          }
+      },
+       {
+          "number": 32,
+          "currentteam": "Derby County",
+          "fullname": "Wayne Mark Rooney",
+          "dateofbirth":"24 October 1985",
+          "age": 34,
+          "goals": "296",
+          "country": "England",
+          "playingposition": "Forward,Attacking midfielder",
+          "career":{
+            "youthcareer":[
+              {
+                "years": 6,
+                "teams": 2
+              }
+              ],
+            "seniorcareer":[
+              {
+                "years": 18,
+                "teams": 5
+              }
+              ]
+          }
+      },
+      {
+          "number": 3,
+          "currentteam": "Barcelona",
+          "fullname": "Gerard Piqué Bernabeu",
+          "dateofbirth":"2 February 1987",
+          "age": 33,
+          "goals": "296",
+          "country": "Spain",
+          "playingposition": "Centre-back",
+          "career":{
+            "youthcareer":[
+              {
+                "years": 7,
+                "teams": 2
+              }
+              ],
+            "seniorcareer":[
+              {
+                "years": 16,
+                "teams": 3
+              }
+              ]
+          }
+      }
+  ]

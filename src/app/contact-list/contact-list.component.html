@@ -1,0 +1,23 @@
+<table class="contact-table">
+  <tr class="header-cell">
+    <td class="pb-2"> First Name </td>
+    <td class="pb-2"> Last Name </td>
+    <td class="pb-2"> Email </td>
+    <td class="pb-2"> Phone</td>
+  </tr>
+  <tr *ngFor="let contact of contactDetails; let i = index" class="cell-style"
+    [ngClass]="{'inactive' : !contact.isActive}">
+    <td class="pb-2"> {{contact.firstName}} </td>
+    <td class="pb-2"> {{contact.lastName}} </td>
+    <td class="pb-2"> {{contact.email}} </td>
+    <td class="pb-2"> {{contact.phone}} </td>
+    <td class="pb-2" *ngIf="contact.isActive">
+      <mat-icon class="edit pr-1 pointer" (click)="editSelectedContact(i)">edit</mat-icon>
+      <mat-icon class="delete pr-1 pointer" (click)="deleteSelectedContact(i)">delete</mat-icon>
+      <button mat-raised-button color="basic" (click)="deActivateSelectedContact(i)">Deactivate Contact</button>
+    </td>
+    <td class="pb-2" *ngIf="!contact.isActive">
+      <button mat-raised-button color="basic" (click)="activateSelectedContact(i)">Activate Contact</button>
+    </td>
+  </tr>
+</table>

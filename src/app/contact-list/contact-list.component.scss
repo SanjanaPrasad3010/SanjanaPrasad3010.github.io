@@ -1,0 +1,37 @@
+.contact-table {
+    width: 80%;
+    margin: auto;
+}
+
+.header-cell {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.pb-2 {
+    padding-bottom: 2rem;
+}
+
+.pr-1 {
+    padding-right: 1rem;
+}
+
+.inactive {
+ color: lightgray;
+}
+
+.deactivate {
+    color: grey;
+}
+
+.edit {
+    color: blue;
+}
+
+.delete {
+    color: red;
+}
+
+.pointer {
+    cursor: pointer;
+}

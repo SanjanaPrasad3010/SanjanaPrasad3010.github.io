@@ -1,0 +1,49 @@
+<div class="container">
+    <mat-card class="header">Contact Information</mat-card>
+    <button mat-raised-button color="primary" (click)="showList()" class="mb2 mt2">Show my list of contacts</button>
+    <div *ngIf="contactList && contactList.length">
+        <app-contact-list *ngIf="isContactListVisible" [contactDetails]="contactList"
+            (deleteContact)="deleteContact($event)" (deActivateContact)="deactivateContact($event)"
+            (editContact)="editContact($event)" (activateContact)="activateContact($event)"></app-contact-list>
+    </div>
+    <hr>
+    <button mat-raised-button color="primary" *ngIf="!showNewForm" (click)="addNewContact()" class="mb2 mt2">Add new
+        contact</button>
+    <div *ngIf="showNewForm" class="ml6">
+        <form [formGroup]="form">
+            <p>
+                <mat-form-field appearance="outline">
+                    <mat-label>First Name</mat-label>
+                    <input matInput placeholder="Enter First Name" [formControl]="form.get('firstName')">
+                    <mat-icon matSuffix>account_circle</mat-icon>
+                </mat-form-field>
+            </p>
+            <p>
+                <mat-form-field appearance="outline">
+                    <mat-label>Last Name</mat-label>
+                    <input matInput placeholder="Enter Last Name" [formControl]="form.get('lastName')">
+                    <mat-icon matSuffix>account_circle</mat-icon>
+                </mat-form-field>
+            </p>
+            <p>
+                <mat-form-field appearance="outline">
+                    <mat-label>Email</mat-label>
+                    <input matInput placeholder="abc@gmail.com" [formControl]="form.get('email')">
+                    <mat-icon matSuffix>mail_outline</mat-icon>
+                </mat-form-field>
+            </p>
+            <p>
+                <mat-form-field appearance="outline">
+                    <mat-label>Phone</mat-label>
+                    <input matInput placeholder="Phone Number" [formControl]="form.get('phone')">
+                    <mat-icon matSuffix>phone</mat-icon>
+                    <mat-hint>Enter 10 digit number</mat-hint>
+                </mat-form-field>
+            </p>
+            <button mat-raised-button color="primary" *ngIf="!isEditModeOn" class="add-contact" (click)=addContact(form.value)>Add
+                Contact</button>
+            <button mat-raised-button color="primary" *ngIf="isEditModeOn" (click)=saveChanges(form.value)>Save
+                Changes</button>
+        </form>
+    </div>
+</div>
