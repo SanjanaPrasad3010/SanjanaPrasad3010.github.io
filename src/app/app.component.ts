@@ -66,7 +66,7 @@ export class AppComponent {
   }
 
   addContact(value: IContactDetails): void {
-    if (this.form.status === 'valid') {
+    if (this.form.status === 'VALID') {
       let formValueObject = { ...value, isActive: true }
       this.contactList.push(formValueObject);
       this.showNewForm = false;
